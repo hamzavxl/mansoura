@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #741922;
+  --brand-dark: #4e0f16;
+  --brand-light: #942531;
+  --brand-subtle: #fdf2f4;
+  --brand-border: #f2c7cc;
+
+  --accent: #b38a38;
+  --accent-dark: #8c6820;
+  --accent-light: #cfa856;
+  --accent-subtle: #fdf9ee;
+  --accent-border: #f3e4b7;
+
+  --bg-body: #faf8f8;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f8f2f3;
+  --bg-hover: #ede3e5;
+
+  --text-main: #111827;
+  --text-muted: #4b5563;
+  --text-dim: #6b7280;
+
+  --border: #ece3e4;
+  --border-dark: #d8c8ca;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+}
+
+body {
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  font-family: var(--font-cairo), "Cairo", "Tajawal", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Enhanced Arabic Font Rendering & Ultra-Crisp Small Text */
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+/* Ensure Arabic cursive text never gets distorted by negative letter spacing */
+h1, h2, h3, h4, h5, h6, p, span, a, button, li, label, div {
+  letter-spacing: normal;
+}
+
+/* Natural Professional Cursor: Arrow on text, pointer on interactive, I-beam only on inputs */
+body, h1, h2, h3, h4, h5, h6, p, span, li, label, div {
+  cursor: default;
+}
+
+input, textarea, [contenteditable="true"] {
+  cursor: text;
+}
+
+a, button, [role="button"], select, summary {
+  cursor: pointer;
+}
+
+/* Crisp Small Text Rendering (10px, 11px, 12px) */
+.text-\[10px\], .text-\[11px\], .text-xs {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+::selection {
+  background-color: #741922;
+  color: #ffffff;
+}
+
+.fr {
+  display: inline-block;
+  color: var(--brand);
+  background: var(--brand-subtle);
+  border: 1px solid var(--brand-border);
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.88em;
+  direction: ltr;
+  unicode-bidi: isolate;
+  margin-inline-start: 6px;
+}
+
+code {
+  display: inline-block;
+  direction: ltr;
+  unicode-bidi: isolate;
+  padding: 1px 7px;
+  border: 1px solid var(--border-dark);
+  border-radius: 5px;
+  background: var(--bg-subtle);
+  color: var(--brand);
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.note {
+  padding: 14px 18px;
+  margin-block: 14px;
+  border-inline-start: 4px solid var(--brand);
+  border-radius: 8px;
+  background: var(--brand-subtle);
+  color: var(--brand-dark);
+  font-size: 0.94rem;
+}
+
+.example {
+  color: var(--text-muted);
+  font-size: 0.94em;
+}
+
+/* Infinite Smooth Partner Logo Marquee */
+@keyframes partner-marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-partner-marquee {
+  display: flex;
+  width: max-content;
+  animation: partner-marquee 18s linear infinite;
+  will-change: transform;
+}
+
+.animate-partner-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-partner-marquee {
+    animation: none;
+  }
+}
+
