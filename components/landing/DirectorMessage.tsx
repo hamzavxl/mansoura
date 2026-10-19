@@ -90,7 +90,7 @@ export default function DirectorMessage() {
                 <div className="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-[#fde047]/20 via-transparent to-transparent pointer-events-none" />
               </div>
 
-              {/* 2. Directress 3D Pop-Out: Bounded circularly at the bottom, head proudly popping out over top rim */}
+              {/* 2. صورة المديرة العامة أ. نوال عيساوي بتأثير الأبعاد الثلاثية البارزة أعلى الإطار */}
               <div className="absolute bottom-2 w-[280px] sm:w-[330px] h-[370px] sm:h-[430px] rounded-b-full overflow-hidden flex items-end justify-center z-10 pointer-events-none">
                 <Image
                   src="/images/2.webp"
@@ -201,7 +201,7 @@ export default function DirectorMessage() {
                 <div className="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-[#38bdf8]/20 via-transparent to-transparent pointer-events-none" />
               </div>
 
-              {/* 2. Prof. Slimane 3D Pop-Out: Bounded circularly at the bottom, head proudly popping out over top rim */}
+              {/* 2. صورة الأستاذ سليمان مسعودي بتأثير الأبعاد الثلاثية البارزة أعلى الإطار */}
               <div className="absolute bottom-2 w-[280px] sm:w-[330px] h-[370px] sm:h-[430px] rounded-b-full overflow-hidden flex items-end justify-center z-10 pointer-events-none">
                 <Image
                   src="/images/3.webp"

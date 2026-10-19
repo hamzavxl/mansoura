@@ -112,7 +112,7 @@ export default function InstitutionStory() {
             </div>
           </div>
 
-          {/* Grand Feature Card: All Graduates (Red Royal Card with Frame Breakout) */}
+          {/* 3.1 بطاقة التتويج الكبرى: تكريم فوج الخريجين بشهادات الدولة الرسمية والميداليات الشرفية */}
           <div className="bg-gradient-to-br from-[#4e0f16] via-[#741922] to-[#2d050a] rounded-3xl p-6 sm:p-10 text-white shadow-xl border-2 border-[#8e242f] grid grid-cols-1 lg:grid-cols-12 gap-8 items-center overflow-visible relative">
             
             {/* Context & Description */}
@@ -177,10 +177,10 @@ export default function InstitutionStory() {
 
           </div>
 
-          {/* Three Focused Field Documentation Cards (RED, LARGE IMAGES, FRAME BREAKOUT, CONCISE TEXT) */}
+          {/* 3.2 بطاقات التوثيق الميداني الثلاث للأنشطة والاعتمادات الرسمية بالمؤسسة */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch pt-6">
             
-            {/* Card 1: Official Award from Directorate of Education (RED + FRAME BREAKOUT + OFFICIAL LOGO STAR EMBLEM) */}
+            {/* بطاقة توثيق 1: وسام التكريم والتقدير الرسمي من مديرية التربية لولاية الجلفة */}
             <div className="bg-gradient-to-br from-[#741922] via-[#59131a] to-[#3a080d] rounded-3xl p-6 pt-12 text-white shadow-xl border-2 border-[#8e242f] flex flex-col justify-between space-y-6 relative overflow-visible group">
               
               {/* Prestigious Official Golden Star & Logo Seal Badge */}
@@ -240,7 +240,7 @@ export default function InstitutionStory() {
 
             </div>
 
-            {/* Card 2: Directress Handing Official Certificate to Graduate (RED + FRAME BREAKOUT) */}
+            {/* بطاقة توثيق 2: تسليم شهادات التخرج والتأهيل المهني المعتمدة برعاية المديرة العامة */}
             <div className="bg-gradient-to-br from-[#741922] via-[#59131a] to-[#3a080d] rounded-3xl p-6 pt-12 text-white shadow-xl border-2 border-[#8e242f] flex flex-col justify-between space-y-6 relative overflow-visible group">
               
               {/* Official Certificate Seal */}
@@ -287,7 +287,7 @@ export default function InstitutionStory() {
 
             </div>
 
-            {/* Card 3: 2025 Graduation Cake (RED + FRAME BREAKOUT) */}
+            {/* بطاقة توثيق 3: الاحتفال الرسمي بتخرج دفعة 2025 وتتويج المتربصين */}
             <div className="bg-gradient-to-br from-[#741922] via-[#59131a] to-[#3a080d] rounded-3xl p-6 pt-12 text-white shadow-xl border-2 border-[#8e242f] flex flex-col justify-between space-y-6 relative overflow-visible group">
               
               {/* Batch Year Badge */}

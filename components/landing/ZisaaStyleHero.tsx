@@ -202,7 +202,7 @@ export default function ZisaaStyleHero() {
                 </div>
               </div>
 
-              {/* 3. Directress Portrait Head Popping OUT over the Top Rim in Full 3D */}
+              {/* 3. صورة المديرة العامة بتأثير الأبعاد الثلاثية البارزة أعلى الإطار */}
               <div className="absolute bottom-4 sm:bottom-6 w-[280px] sm:w-[340px] h-[380px] sm:h-[450px] rounded-b-full overflow-hidden flex items-end justify-center z-10 pointer-events-none">
                 <Image
                   src="/images/12.webp"
@@ -214,7 +214,7 @@ export default function ZisaaStyleHero() {
                 />
               </div>
 
-              {/* 4. Leadership Anchor Badge (Overlapping Bottom Rim of Circle) */}
+              {/* 4. شارة الاعتماد والقيادة البيداغوجية أسفل الإطار */}
               <div className="absolute bottom-1 sm:bottom-2 z-20 flex flex-col items-center justify-center text-center px-4">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1b0306]/90 backdrop-blur-md border border-[#facc15]/40 text-[#facc15] text-[11px] font-bold shadow-2xl">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#facc15] animate-pulse" />
