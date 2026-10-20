@@ -383,8 +383,8 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* 4. Official Recognitions & Certificate Moments */}
-        <section className="space-y-6 pt-4">
+        {/* 4. Official Recognitions & Field Accreditations Showcase */}
+        <section className="space-y-8 pt-4">
           <div className="text-center max-w-2xl mx-auto space-y-2">
             <div className="inline-flex items-center gap-2 text-[#741922] text-xs font-bold">
               <span className="w-2 h-2 rounded-full bg-[#741922]" />
@@ -394,112 +394,167 @@ export default function AboutPage() {
               محطات التكريم والاعتماد الميداني
             </h2>
             <p className="text-xs sm:text-sm text-[#4b5563] leading-relaxed">
-              مشاهد توثق لحظات تسليم الشهادات المعتمدة وتكريم الكفاءات التربوية برعاية الإدارة العامة لمدرسة منصورة.
+              مشاهد توثق لحظات تسليم الشهادات المعتمدة، تكريم الكفاءات التربوية، وتتويج المتربصين برعاية الإدارة العامة لمدرسة منصورة.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-            
-            {/* Card 1: Official Award from Directorate of Education */}
-            <div className="bg-gradient-to-br from-[#741922] via-[#59131a] to-[#3a080d] border-2 border-[#8e242f] rounded-3xl p-6 pt-12 flex flex-col justify-between space-y-6 shadow-xl text-white relative overflow-hidden group">
-              
-              {/* Prestigious Official Golden Star & Logo Seal Badge */}
-              <div className="absolute top-4 right-4 z-30 flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-[#b45309] via-[#d97706] to-[#b45309] text-white shadow-xl border-2 border-[#fde047]/70 backdrop-blur-md">
-                <div className="w-5 h-5 rounded-full bg-white p-0.5 flex items-center justify-center shrink-0 shadow-xs">
-                  <Image
-                    src="/images/1.webp"
-                    alt="شعار مدرسة منصورة"
-                    width={18}
-                    height={18}
-                    className="object-contain"
-                  />
-                </div>
-                <div className="flex items-center gap-1">
-                  <svg width="13" height="13" viewBox="0 0 24 24" fill="#fde047" className="drop-shadow-xs">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                  </svg>
-                  <span className="text-[11px] font-black text-white drop-shadow-xs">وسام التكريم والاستحقاق</span>
-                </div>
+          {/* 4.1 Grand Showcase Banner: Graduates Ceremony (4.webp) */}
+          <div className="bg-gradient-to-br from-[#4e0f16] via-[#741922] to-[#2d050a] rounded-2xl sm:rounded-3xl p-5 sm:p-8 text-white shadow-xl border-2 border-[#8e242f] grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center overflow-hidden relative">
+            <div className="lg:col-span-5 space-y-4 text-right order-2 lg:order-1 relative z-20">
+              <div className="inline-flex items-center gap-2 text-[#fde047] text-xs font-bold">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#fde047]" />
+                <span>تتويج الدفعات المتخرجة</span>
               </div>
 
-              {/* Architectural Square Grid */}
-              <div 
-                className="absolute inset-0 pointer-events-none opacity-[0.08]"
-                style={{
-                  backgroundImage: `url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 32 0 L 0 0 0 32' fill='none' stroke='white' stroke-width='1'/%3E%3C/svg%3E")`,
-                  backgroundSize: '32px 32px'
-                }}
-              />
+              <div className="space-y-2">
+                <h3 className="text-lg sm:text-2xl lg:text-3xl font-black text-white leading-tight">
+                  تتويج فوج الخريجين بشهادات الدولة الرسمية
+                </h3>
+                <p className="text-xs sm:text-sm text-[#fce7eb]/90 leading-relaxed">
+                  تتويج كوكبة من متربصي مدرسة منصورة بالجلفة بشهادات الدولة المعتمدة وميداليات الاستحقاق بعد استكمال التكوين والامتحانات بنجاح.
+                </p>
+              </div>
 
-              {/* Image Pedestal Stage with Radial Ambient Lighting */}
-              <div className="relative w-full aspect-[4/3] rounded-2xl bg-black/30 border border-white/15 flex items-end justify-center p-3 overflow-hidden shadow-inner">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgba(255,255,255,0.18)_0%,transparent_65%)] pointer-events-none" />
+              <div className="space-y-1.5 text-xs font-bold text-white/95">
+                <div className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#fde047]" />
+                  <span>شهادات مطابقة لمعايير وزارة التكوين والتعليم المهنيين</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#fde047]" />
+                  <span>ميداليات التميز لأوائل الدفعات في التخصصات التطبيقية</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="lg:col-span-7 flex items-center justify-center order-1 lg:order-2 relative z-10">
+              <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden border-2 border-[#facc15]/80 bg-gradient-to-b from-black/60 to-[#1e0306] shadow-2xl p-2 flex items-center justify-center group/stage">
+                <Image
+                  src="/images/4.webp"
+                  alt="تتويج فوج الخريجين بشهادات الدولة وميداليات التميز — مدرسة منصورة للتكوين والتعليم بالجلفة"
+                  width={680}
+                  height={420}
+                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.8)] group-hover/stage:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
+              </div>
+            </div>
+          </div>
+
+          {/* 4.2 Triad of Verified Official Recognition Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
+            
+            {/* Card 1: Official Award from Directorate of Education (5.webp) */}
+            <div className="bg-gradient-to-br from-[#741922] via-[#59131a] to-[#3a080d] rounded-2xl sm:rounded-3xl p-4 sm:p-6 text-white shadow-xl border-2 border-[#8e242f] flex flex-col justify-between space-y-4 relative overflow-hidden group">
+              <div className="flex items-center justify-between gap-2 z-20">
+                <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 text-white shadow-md border border-white/20">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="#fde047">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                  <span className="text-[11px] font-black">وسام الاستحقاق والتكريم</span>
+                </div>
+                <span className="text-[10px] font-bold text-[#fde047] bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15">
+                  2025
+                </span>
+              </div>
+
+              <div className="relative w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-[#b38a38]/80 bg-gradient-to-b from-black/70 to-[#1e0306] shadow-xl p-2 flex items-center justify-center group-hover:border-[#facc15] transition-colors">
                 <Image
                   src="/images/5.webp"
                   alt="تكريم الأستاذة بن ناصر فاطمة بشهادة تقدير من مديرية التربية لولاية الجلفة بحضور المديرة العامة أ. نوال عيساوي"
-                  width={500}
-                  height={380}
-                  className="object-contain object-bottom max-h-full w-auto drop-shadow-[0_15px_30px_rgba(0,0,0,0.6)] group-hover:scale-105 transition-transform duration-300 relative z-10"
+                  width={420}
+                  height={320}
+                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-transform duration-500"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
               </div>
 
-              <div className="space-y-2 text-right relative z-20">
-                <div className="inline-block px-3 py-1 rounded-full bg-white/10 text-[#fde047] text-[11px] font-bold border border-white/15">
-                  وزارة التربية الوطنية • مديرية التربية لولاية الجلفة
+              <div className="space-y-1.5 text-right relative z-20">
+                <div className="inline-block px-2.5 py-0.5 rounded-full bg-white/10 text-[#fde047] text-[10px] font-bold border border-white/15">
+                  مديرية التربية • ولاية الجلفة
                 </div>
-                <h3 className="text-lg sm:text-xl font-black text-white">
-                  شهادة تقدير وتكريم للأستاذة بن ناصر فاطمة
-                </h3>
+                <h4 className="text-base sm:text-lg font-black text-white leading-tight">
+                  تكريم رسمي للأستاذة بن ناصر فاطمة
+                </h4>
                 <p className="text-xs text-[#fce7eb]/80 leading-relaxed">
-                  تكريم رسمي من مديرية التربية لولاية الجلفة للأستاذة بن ناصر فاطمة بحضور المديرة العامة أ. نوال عيساوي، تقديراً لجهودها المتميزة وتفانيها في أداء مهامها التربوية.
+                  شهادة تقدير وتكريم رسمي تقديراً للجهود التربوية المتميزة بحضور المديرة العامة.
                 </p>
               </div>
             </div>
 
-            {/* Card 2: Directress Presenting Certificate to Graduate */}
-            <div className="bg-gradient-to-br from-[#741922] via-[#59131a] to-[#3a080d] border-2 border-[#8e242f] rounded-3xl p-6 pt-12 flex flex-col justify-between space-y-6 shadow-xl text-white relative overflow-hidden group">
-              
-              {/* Official State Certificate Seal */}
-              <div className="absolute top-4 right-4 z-30 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/15 text-white shadow-lg border border-white/20 backdrop-blur-md">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#fde047" strokeWidth="2.2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                  <polyline points="14 2 14 8 20 8" />
-                  <line x1="16" y1="13" x2="8" y2="13" />
-                  <line x1="16" y1="17" x2="8" y2="17" />
-                </svg>
-                <span className="text-[11px] font-bold text-white drop-shadow-xs">شهادة دولة معتمدة</span>
+            {/* Card 2: Handing Official State Certificate to Graduate (6.webp) */}
+            <div className="bg-gradient-to-br from-[#741922] via-[#59131a] to-[#3a080d] rounded-2xl sm:rounded-3xl p-4 sm:p-6 text-white shadow-xl border-2 border-[#8e242f] flex flex-col justify-between space-y-4 relative overflow-hidden group">
+              <div className="flex items-center justify-between gap-2 z-20">
+                <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 text-white shadow-md border border-white/20">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fde047" strokeWidth="2.2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                  </svg>
+                  <span className="text-[11px] font-bold text-white">شهادة دولة معتمدة</span>
+                </div>
+                <span className="text-[10px] font-bold text-[#fde047] bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15">
+                  تأهيل رسمي
+                </span>
               </div>
 
-              {/* Architectural Square Grid */}
-              <div 
-                className="absolute inset-0 pointer-events-none opacity-[0.08]"
-                style={{
-                  backgroundImage: `url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 32 0 L 0 0 0 32' fill='none' stroke='white' stroke-width='1'/%3E%3C/svg%3E")`,
-                  backgroundSize: '32px 32px'
-                }}
-              />
-
-              {/* Image Pedestal Stage with Radial Ambient Lighting */}
-              <div className="relative w-full aspect-[4/3] rounded-2xl bg-black/30 border border-white/15 flex items-end justify-center p-3 overflow-hidden shadow-inner">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgba(255,255,255,0.18)_0%,transparent_65%)] pointer-events-none" />
+              <div className="relative w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-[#b38a38]/80 bg-gradient-to-b from-black/70 to-[#1e0306] shadow-xl p-2 flex items-center justify-center group-hover:border-[#facc15] transition-colors">
                 <Image
                   src="/images/6.webp"
                   alt="المديرة العامة أ. نوال عيساوي تسلم شهادة التخرج الرسمية لمتربص"
-                  width={500}
-                  height={380}
-                  className="object-contain object-bottom max-h-full w-auto drop-shadow-[0_15px_30px_rgba(0,0,0,0.6)] group-hover:scale-105 transition-transform duration-300 relative z-10"
+                  width={420}
+                  height={320}
+                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-transform duration-500"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
               </div>
 
-              <div className="space-y-2 text-right relative z-20">
-                <div className="inline-block px-3 py-1 rounded-full bg-white/10 text-[#fde047] text-[11px] font-bold border border-white/15">
-                  إشراف مباشر • مدرسة منصورة
-                </div>
-                <h3 className="text-lg sm:text-xl font-black text-white">
+              <div className="space-y-1.5 text-right relative z-20">
+                <span className="inline-block px-2.5 py-0.5 rounded-full bg-white/10 text-[#fde047] text-[10px] font-bold border border-white/15">
+                  مدرسة منصورة • إشراف ميداني
+                </span>
+                <h4 className="text-base sm:text-lg font-black text-white leading-tight">
                   تسليم شهادات التخرج والتأهيل المهني
-                </h3>
+                </h4>
                 <p className="text-xs text-[#fce7eb]/80 leading-relaxed">
-                  متابعة ميدانية مستمرة وحرص من المديرة العامة أ. نوال عيساوي على تسليم شهادات التأهيل والتخرج المعتمدة شخصياً للمتربصين بعد اجتيازهم الامتحانات التطبيقية بنجاح.
+                  إشراف مباشر من المديرة العامة على تسليم شهادات التأهيل للمتربصين بعد اجتياز الامتحانات.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 3: Graduation Ceremony Class 2025 (7.webp) */}
+            <div className="bg-gradient-to-br from-[#741922] via-[#59131a] to-[#3a080d] rounded-2xl sm:rounded-3xl p-4 sm:p-6 text-white shadow-xl border-2 border-[#8e242f] flex flex-col justify-between space-y-4 relative overflow-hidden group">
+              <div className="flex items-center justify-between gap-2 z-20">
+                <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 text-white shadow-md border border-white/20">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="#fde047">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                  <span className="text-[11px] font-bold text-white">دفعة التميز 2025</span>
+                </div>
+                <span className="text-[10px] font-bold text-[#fde047] bg-white/10 px-2.5 py-0.5 rounded-full border border-white/15">
+                  احتفال التخرج
+                </span>
+              </div>
+
+              <div className="relative w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-[#b38a38]/80 bg-gradient-to-b from-black/70 to-[#1e0306] shadow-xl p-2 flex items-center justify-center group-hover:border-[#facc15] transition-colors">
+                <Image
+                  src="/images/7.webp"
+                  alt="الاحتفال الرسمي بتخرج دفعة 2025 وتتويج المتربصين — مدرسة منصورة للتكوين والتعليم"
+                  width={420}
+                  height={320}
+                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
+              </div>
+
+              <div className="space-y-1.5 text-right relative z-20">
+                <span className="inline-block px-2.5 py-0.5 rounded-full bg-white/10 text-[#fde047] text-[10px] font-bold border border-white/15">
+                  حفل رسمي • ولاية الجلفة
+                </span>
+                <h4 className="text-base sm:text-lg font-black text-white leading-tight">
+                  الاحتفال بتخرج دفعات التكوين المهني
+                </h4>
+                <p className="text-xs text-[#fce7eb]/80 leading-relaxed">
+                  تتويج المتربصين الناجحين في مختلف التخصصات بحضور الأساتذة والشركاء الاقتصاديين.
                 </p>
               </div>
             </div>

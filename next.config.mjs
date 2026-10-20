@@ -9,11 +9,12 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Anti-SSRF: Restrict image optimization strictly to local static assets
+  // 1. Direct Static Asset Resolution: Serves clean /partners/* and /images/* paths directly without /_next/image proxy
   images: {
+    unoptimized: true,
     remotePatterns: [],
   },
-  // Defense-in-Depth HTTP Security Headers (OWASP Standards)
+  // 2. Defense-in-Depth HTTP Security Headers (OWASP Standards)
   async headers() {
     return [
       {
