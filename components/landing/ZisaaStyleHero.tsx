@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function ZisaaStyleHero() {
   return (
-    <section id="hero" className="relative bg-gradient-to-br from-[#741922] via-[#5b1219] to-[#3f0b10] text-white -mt-[72px] sm:-mt-[82px] pt-24 sm:pt-32 pb-28 sm:pb-36 overflow-hidden">
+    <section id="hero" className="relative bg-gradient-to-br from-[#741922] via-[#5b1219] to-[#3f0b10] text-white -mt-[72px] sm:-mt-[82px] pt-20 sm:pt-32 pb-8 sm:pb-16 overflow-hidden">
       
       {/* Background Architectural Grid Lines (optimized for mobile 60fps) */}
       <div 
@@ -304,12 +304,12 @@ export default function ZisaaStyleHero() {
       </div>
 
       {/* Integrated Institutional Authority Ribbon (Seamless, executive, zero disconnected white box) */}
-      <div className="w-full border-t border-white/10 bg-black/25 backdrop-blur-lg mt-16 sm:mt-20">
-        <div className="w-[92%] max-w-[1240px] mx-auto py-5 sm:py-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 items-center">
+      <div className="w-full border-t border-white/10 bg-black/25 backdrop-blur-lg mt-8 sm:mt-16">
+        <div className="w-[92%] max-w-[1240px] mx-auto py-3.5 sm:py-5">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-5 items-center">
             
             <div className="flex items-center gap-3.5 text-right">
-              <div className="w-11 h-11 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-[#fde047]">
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-[#fde047]">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                 </svg>
@@ -321,7 +321,7 @@ export default function ZisaaStyleHero() {
             </div>
 
             <div className="flex items-center gap-3.5 text-right">
-              <div className="w-11 h-11 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-[#fde047]">
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-[#fde047]">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                   <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
                   <line x1="8" y1="21" x2="16" y2="21" />
@@ -335,7 +335,7 @@ export default function ZisaaStyleHero() {
             </div>
 
             <div className="flex items-center gap-3.5 text-right">
-              <div className="w-11 h-11 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-[#fde047]">
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-[#fde047]">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                   <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                   <circle cx="9" cy="7" r="4" />
@@ -350,7 +350,7 @@ export default function ZisaaStyleHero() {
             </div>
 
             <div className="flex items-center gap-3.5 text-right">
-              <div className="w-11 h-11 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-[#fde047]">
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-[#fde047]">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                   <circle cx="12" cy="10" r="3" />

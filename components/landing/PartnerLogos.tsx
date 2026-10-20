@@ -156,11 +156,11 @@ export default function PartnerLogos() {
           <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-28 bg-gradient-to-l from-[#faf8f8] to-transparent pointer-events-none z-10" />
 
           {/* Marquee Container with Pausing on Hover */}
-          <div className="animate-partner-marquee flex gap-10 sm:gap-14 md:gap-16 items-center">
+          <div className="animate-partner-marquee flex gap-3 sm:gap-5 items-center">
             {marqueeList.map((p, idx) => (
               <div
                 key={`${p.id}-${idx}`}
-                className="shrink-0 flex items-center justify-center p-2 opacity-85 hover:opacity-100 transition-all duration-300 hover:scale-110 cursor-pointer"
+                className="w-28 sm:w-36 h-12 sm:h-14 rounded-xl bg-white border border-[#ece3e4] shadow-[0_2px_8px_rgba(0,0,0,0.03)] flex items-center justify-center px-3 py-1.5 shrink-0 hover:border-[#741922]/30 hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer"
                 title={p.name}
               >
                 <Image
@@ -168,7 +168,7 @@ export default function PartnerLogos() {
                   alt={p.name}
                   width={p.width}
                   height={p.height}
-                  className="max-h-8 sm:max-h-9 md:max-h-10 max-w-[125px] sm:max-w-[145px] w-auto h-auto object-contain transition-transform"
+                  className="max-h-6 sm:max-h-8 max-w-[85px] sm:max-w-[110px] w-auto h-auto object-contain"
                 />
               </div>
             ))}

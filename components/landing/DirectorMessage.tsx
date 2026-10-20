@@ -22,7 +22,7 @@ export default function DirectorMessage() {
   ];
 
   return (
-    <section id="leadership" className="py-16 sm:py-24 bg-[#faf8f8] relative overflow-hidden border-b border-[#ece3e4]">
+    <section id="leadership" className="py-10 sm:py-20 bg-[#faf8f8] relative overflow-hidden border-b border-[#ece3e4]">
       
       {/* Clean Architectural Square Grid Lines (خطوط مربعات هندسية واضحة وأنيقة) */}
       <div 
@@ -70,7 +70,7 @@ export default function DirectorMessage() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgba(255,255,255,0.14)_0%,transparent_65%)] pointer-events-none" />
 
             {/* 3D Pop-Out Circular Avatar Showcase */}
-            <div className="relative w-full max-w-[340px] sm:max-w-[400px] h-[380px] sm:h-[440px] flex items-end justify-center my-auto">
+            <div className="relative w-full max-w-[340px] sm:max-w-[400px] h-[300px] sm:h-[420px] flex items-end justify-center my-auto">
               
               {/* Outer Golden Ambient Glow */}
               <div className="absolute bottom-2 w-[280px] sm:w-[330px] h-[280px] sm:h-[330px] rounded-full bg-[#b38a38]/25 blur-3xl pointer-events-none" />
@@ -181,7 +181,7 @@ export default function DirectorMessage() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgba(255,255,255,0.12)_0%,transparent_65%)] pointer-events-none" />
 
             {/* 3D Pop-Out Circular Avatar Showcase */}
-            <div className="relative w-full max-w-[340px] sm:max-w-[400px] h-[380px] sm:h-[440px] flex items-end justify-center my-auto">
+            <div className="relative w-full max-w-[340px] sm:max-w-[400px] h-[300px] sm:h-[420px] flex items-end justify-center my-auto">
               
               {/* Outer Cyan/Blue Ambient Glow */}
               <div className="absolute bottom-2 w-[280px] sm:w-[330px] h-[280px] sm:h-[330px] rounded-full bg-[#38bdf8]/20 blur-3xl pointer-events-none" />
