@@ -62,7 +62,7 @@ const partners: Partner[] = [
   {
     id: "anem",
     name: "الوكالة الوطنية للتشغيل",
-    logo: "/partners/anem.png",
+    logo: "/partners/anem.svg",
     width: 105,
     height: 38,
   },
@@ -83,7 +83,7 @@ const partners: Partner[] = [
   {
     id: "univ",
     name: "جامعة زيان عاشور بالجلفة",
-    logo: "/partners/univ_djelfa.png",
+    logo: "/partners/univ_djelfa.svg",
     width: 95,
     height: 44,
   },
@@ -104,7 +104,7 @@ const partners: Partner[] = [
   {
     id: "nesda",
     name: "الوكالة الوطنية لدعم وتنمية المقاولاتية",
-    logo: "/partners/nesda.png",
+    logo: "/partners/nesda.svg",
     width: 110,
     height: 38,
   },
@@ -118,14 +118,14 @@ const partners: Partner[] = [
   {
     id: "sonelgaz",
     name: "مجمع سونلغاز",
-    logo: "/partners/sonelgaz.png",
+    logo: "/partners/sonelgaz.svg",
     width: 105,
     height: 38,
   },
   {
     id: "caci",
     name: "غرفة التجارة والصناعة",
-    logo: "/partners/caci.png",
+    logo: "/partners/caci.svg",
     width: 100,
     height: 40,
   },
@@ -160,7 +160,7 @@ export default function PartnerLogos() {
             {marqueeList.map((p, idx) => (
               <div
                 key={`${p.id}-${idx}`}
-                className="w-28 sm:w-36 h-12 sm:h-14 rounded-xl bg-white border border-[#ece3e4] shadow-[0_2px_8px_rgba(0,0,0,0.03)] flex items-center justify-center px-3 py-1.5 shrink-0 hover:border-[#741922]/30 hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer"
+                className="w-28 sm:w-36 h-12 sm:h-14 rounded-xl bg-white border border-[#ece3e4] shadow-[0_2px_8px_rgba(0,0,0,0.03)] flex items-center justify-center px-3 py-1.5 shrink-0 hover:border-[#741922]/40 hover:shadow-md transition-all duration-200 cursor-pointer"
                 title={p.name}
               >
                 <Image

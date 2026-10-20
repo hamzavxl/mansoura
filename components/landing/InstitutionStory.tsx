@@ -157,14 +157,23 @@ export default function InstitutionStory() {
 
             {/* Structured Luxury Photo Frame with Defined Edges */}
             <div className="lg:col-span-7 flex items-center justify-center order-1 lg:order-2 relative z-10">
-              <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden border-2 border-[#facc15]/80 bg-gradient-to-b from-black/60 to-[#1e0306] shadow-2xl p-2 flex items-center justify-center group/stage">
+              <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden border-2 border-[#facc15]/80 bg-gradient-to-b from-[#2a060a] via-[#1a0305] to-[#0d0102] shadow-2xl p-2 flex items-center justify-center">
+                {/* Architectural Grid Lines (خلفية مخططة) */}
+                <div 
+                  className="absolute inset-0 pointer-events-none opacity-[0.16]"
+                  style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 24 0 L 0 0 0 24' fill='none' stroke='%23facc15' stroke-width='1'/%3E%3C/svg%3E")`,
+                    backgroundSize: '24px 24px'
+                  }}
+                />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.18)_0%,transparent_65%)] pointer-events-none" />
                 <Image
                   src="/images/4.webp"
                   alt="تتويج خريجي مدرسة منصورة للتكوين والتعليم بالجلفة بالشهادات والميداليات الرسمية"
                   width={640}
                   height={420}
                   priority
-                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] group-hover/stage:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] relative z-10"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
                 <div className="absolute bottom-2.5 right-2.5 z-20 flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#741922]/90 border border-[#facc15]/60 text-white text-[11px] font-bold shadow-md">
@@ -196,13 +205,22 @@ export default function InstitutionStory() {
               </div>
 
               {/* Crisp Defined Frame with Clear Golden Border */}
-              <div className="relative w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-[#b38a38]/80 bg-gradient-to-b from-black/70 to-[#1e0306] shadow-xl p-2 flex items-center justify-center group-hover:border-[#facc15] transition-colors">
+              <div className="relative w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-[#b38a38]/80 bg-gradient-to-b from-[#2a060a] via-[#1a0305] to-[#0d0102] shadow-xl p-2 flex items-center justify-center group-hover:border-[#facc15] transition-colors">
+                {/* Architectural Grid Lines (خلفية مخططة) */}
+                <div 
+                  className="absolute inset-0 pointer-events-none opacity-[0.16]"
+                  style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 24 0 L 0 0 0 24' fill='none' stroke='%23facc15' stroke-width='1'/%3E%3C/svg%3E")`,
+                    backgroundSize: '24px 24px'
+                  }}
+                />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.18)_0%,transparent_65%)] pointer-events-none" />
                 <Image
                   src="/images/5.webp"
                   alt="تكريم الأستاذة بن ناصر فاطمة بشهادة تقدير من مديرية التربية لولاية الجلفة بحضور المديرة العامة أ. نوال عيساوي"
                   width={420}
                   height={320}
-                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] relative z-10"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
               </div>
@@ -240,13 +258,22 @@ export default function InstitutionStory() {
               </div>
 
               {/* Crisp Defined Frame with Clear Golden Border */}
-              <div className="relative w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-[#b38a38]/80 bg-gradient-to-b from-black/70 to-[#1e0306] shadow-xl p-2 flex items-center justify-center group-hover:border-[#facc15] transition-colors">
+              <div className="relative w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-[#b38a38]/80 bg-gradient-to-b from-[#2a060a] via-[#1a0305] to-[#0d0102] shadow-xl p-2 flex items-center justify-center group-hover:border-[#facc15] transition-colors">
+                {/* Architectural Grid Lines (خلفية مخططة) */}
+                <div 
+                  className="absolute inset-0 pointer-events-none opacity-[0.16]"
+                  style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 24 0 L 0 0 0 24' fill='none' stroke='%23facc15' stroke-width='1'/%3E%3C/svg%3E")`,
+                    backgroundSize: '24px 24px'
+                  }}
+                />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.18)_0%,transparent_65%)] pointer-events-none" />
                 <Image
                   src="/images/6.webp"
                   alt="المديرة العامة أ. نوال عيساوي تسلم شهادة التخرج الرسمية لمتربص"
                   width={420}
                   height={320}
-                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] relative z-10"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
               </div>
@@ -283,13 +310,22 @@ export default function InstitutionStory() {
               </div>
 
               {/* Crisp Defined Frame with Clear Golden Border */}
-              <div className="relative w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-[#b38a38]/80 bg-gradient-to-b from-black/70 to-[#1e0306] shadow-xl p-2 flex items-center justify-center group-hover:border-[#facc15] transition-colors">
+              <div className="relative w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-[#b38a38]/80 bg-gradient-to-b from-[#2a060a] via-[#1a0305] to-[#0d0102] shadow-xl p-2 flex items-center justify-center group-hover:border-[#facc15] transition-colors">
+                {/* Architectural Grid Lines (خلفية مخططة) */}
+                <div 
+                  className="absolute inset-0 pointer-events-none opacity-[0.16]"
+                  style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 24 0 L 0 0 0 24' fill='none' stroke='%23facc15' stroke-width='1'/%3E%3C/svg%3E")`,
+                    backgroundSize: '24px 24px'
+                  }}
+                />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.18)_0%,transparent_65%)] pointer-events-none" />
                 <Image
                   src="/images/7.webp"
                   alt="الاحتفال بتخرج دفعة 2025 بمدرسة منصورة بالجلفة"
                   width={420}
                   height={320}
-                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] relative z-10"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
               </div>
