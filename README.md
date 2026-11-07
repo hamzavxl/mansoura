@@ -50,7 +50,7 @@
   </p>
 </div>
 
-- حساب غيتهوب: [`github.com/hamzavxl`](https://github.com/hamzavxl)
+- حساب github : [`github.com/hamzavxl`](https://github.com/hamzavxl)
 - بناء المنصة بتقنيات الويب الحديثة وتصميم واجهة مستخدم احترافية متكاملة وسريعة الاستجابة.
 
 ---
